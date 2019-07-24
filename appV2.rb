@@ -4,18 +4,17 @@ Bundler.require
 require_relative 'lib/game'
 require_relative 'lib/player'
 
-require 'pry'
 
 def home
   puts "*********************************************************************"
-  puts "                                                                     " 
-  puts "   |   T'es maintenant sur mon jeu 'ILS VEULENT TOUS MA POO' !   |   "
-  puts "   |                                                             |   " 
-  puts "   |                                                             |   " 
-  puts "   |                                                             |   " 
-  puts "   |      Le but du jeu est d'être le dernier survivant !        |   "
-  puts "                                                                     "  
-  puts "---------------------------------------------------------------------"
+  puts "*                                                                   *" 
+  puts "*  |   T'es maintenant sur mon jeu 'ILS VEULENT TOUS MA POO' !   |  *"
+  puts "*  |                                                             |  *" 
+  puts "*  |                                                             |  *" 
+  puts "*  |                                                             |  *" 
+  puts "*  |      Le but du jeu est d'être le dernier survivant !        |  *"
+  puts "*                                                                   *"  
+  puts "*-------------------------------------------------------------------*"
 
 end
 
@@ -98,4 +97,3 @@ else
   puts "Loser ! Tu as perdu !"
 end
 puts "**********************************"
-binding.pry

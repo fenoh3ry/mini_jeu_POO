@@ -4,15 +4,15 @@ require_relative 'lib/game'
 require_relative 'lib/player'
 
 # Welcome screen
-  puts "*********************************************************************"
-  puts "                                                                     " 
-  puts "   |   T'es maintenant sur mon jeu 'ILS VEULENT TOUS MA POO' !   |   "
-  puts "   |                                                             |   " 
-  puts "   |                                                             |   " 
-  puts "   |                                                             |   " 
-  puts "   |      Le but du jeu est d'être le dernier survivant !        |   "
-  puts "                                                                     "  
-  puts "---------------------------------------------------------------------"
+puts "*********************************************************************"
+puts "*                                                                   *" 
+puts "*  |   T'es maintenant sur mon jeu 'ILS VEULENT TOUS MA POO' !   |  *"
+puts "*  |                                                             |  *" 
+puts "*  |                                                             |  *" 
+puts "*  |                                                             |  *" 
+puts "*  |      Le but du jeu est d'être le dernier survivant !        |  *"
+puts "*                                                                   *"  
+puts "*-------------------------------------------------------------------*"
 
 # Initializing User player character
 puts 'Entrer votre nom pour commencer'

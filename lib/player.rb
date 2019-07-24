@@ -39,7 +39,7 @@ class HumanPlayer < Player    # Player class heritage
   def initialize(player_name)
     @weapon_level = 1
 
-    super
+    super(player_name)
     @life_points = 100
 
   end
